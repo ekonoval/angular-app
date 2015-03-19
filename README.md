@@ -10,8 +10,6 @@ The idea is to **demonstrate how to write a typical, non-trivial CRUD applicatio
 
 This sample application is featured in our [book](http://goo.gl/gKEsIo) where you can find detailed description of the patterns and techniques used to write this code:
 
-<a href="http://goo.gl/gKEsIo"><img src="http://www.packtpub.com/sites/default/files/1820OS.jpg"></a>
-
 We've learned a lot while using and supporting AngularJS on the [mailing list](https://groups.google.com/group/angular) and would like to share our experience.
 
 ## Stack
