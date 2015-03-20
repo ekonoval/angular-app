@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
   mongo: {
     dbUrl: 'https://api.mongolab.com/api/1',            // The base url of the MongoLab DB server
-    apiKey: '4fb51e55e4b02e56a67b0b66'                 // Our MongoLab API key
+    apiKey: 'acpSRuvvSN1qhihw4_4upP4Y6rUkN7AW'          // Our MongoLab API key
   },
   security: {
     dbName: 'ascrum',                                   // The name of database that contains the security information

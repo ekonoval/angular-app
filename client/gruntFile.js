@@ -11,10 +11,14 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-html2js');
 
   // Default task.
-  grunt.registerTask('default', ['jshint','build','karma:unit']);
+  grunt.registerTask('default', ['jshint','build']);
+  grunt.registerTask('fast-watch', ['jshint','watch:build']);
+
+  grunt.registerTask('default1', ['jshint','build','karma:unit']);
   grunt.registerTask('build', ['clean','html2js','concat','recess:build','copy:assets']);
   grunt.registerTask('release', ['clean','html2js','uglify','jshint','karma:unit','concat:index', 'recess:min','copy:assets']);
   grunt.registerTask('test-watch', ['karma:watch']);
+
 
   // Print a timestamp (useful for when watching)
   grunt.registerTask('timestamp', function() {
